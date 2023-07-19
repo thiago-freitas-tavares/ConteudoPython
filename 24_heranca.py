@@ -1,7 +1,10 @@
-# Inheritage (Herança) -> Mecanismo de reutilização de código
-# DRY - Don't Repeat Yourself - uma forma de simplificar o código
+# Inheritage (Herança) -> Mecanismo de reutilização de código.
+
+# DRY - Don't Repeat Yourself - uma forma de simplificar o código.
 
 # 1. Exemplo com Utilização de Herança
+
+
 class Mamifero:
     def andar(self):
         print('Ande')
@@ -23,6 +26,8 @@ gato1 = Gato()
 gato1.andar()
 
 # 2. Exemplo sem Utilização de Herança
+
+
 class Dog:
     def __init__(self, name):
         self.name = name

@@ -1,9 +1,12 @@
 # Argumentos Posicionais e Argumentos Palavra Chave
 
 # Utilizando o exemplo do conteúdo anterior:
+
+
 def comprimentar(primeiro_nome, sobrenome):
     print(f'Olá, {primeiro_nome} {sobrenome}.')
     print('Bem vindo a bordo!')
+
 
 n1 = input('Digite seu nome: ')
 n2 = input('Digite seu sobrenome: ')

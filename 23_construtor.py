@@ -6,6 +6,7 @@
 # Os valores que serão atribuídos a x e y devem ser passados como argumentos na chamada da classe.
 # Construtores simplificam muito o código no caso de criação de grande qtd de objetos do mesmo tipo.
 
+
 class Ponto:                    # A classe Ponto define um novo tipo, que permite a criação de objetos.
     def __init__(self, x, y):    # __init__ (initialize) usa self para se referir ao objeto que está sendo criado.
         self.x = x              # Construção da coordenada x através do parâmetro x.

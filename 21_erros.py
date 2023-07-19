@@ -9,8 +9,6 @@ except ValueError and ZeroDivisionError:
     print('Entrada Inválida!')
 
 
-
-
 # Idade: asd
 #     idade = int(input('Idade: '))
 # ValueError: invalid literal for int() with base 10: '32k'

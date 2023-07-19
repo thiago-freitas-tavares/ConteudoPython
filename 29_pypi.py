@@ -14,7 +14,6 @@
 
 # ----------------------------------------------------------------------------------------------------------------
 
-# Curso Avançado:
 # Acessar informação do yeld.com através do programa desenvolvido.
 # Web Scraping - desenvolver um engine (web crawler) que navega um site e extrai informação de arquivos HDML.
 # Browser Automation - automatiza o teste de suas aplicações web (pyp selenium).

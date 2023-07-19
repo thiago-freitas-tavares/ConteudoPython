@@ -3,26 +3,26 @@
 print(10 + 5)
 print(10 - 5)
 print(10 * 5)
-print(10 / 5) #float
-print(10 // 5) #integer
-print(10 % 5) #resto da divisão
-print(10 ** 9) #potência
+print(10 / 5)   # float
+print(10 // 5)  # integer
+print(10 % 5)   # resto da divisão
+print(10 ** 9)  # potência
 
 x = 10
 print(x)
-x += 2 #mesmo que x = x + 2
+x += 2 # mesmo que x = x + 2
 print(x)
-x -= 2 #mesmo que x = x - 2
+x -= 2 # mesmo que x = x - 2
 print(x)
-x *= 2 #mesmo que x = x * 2
+x *= 2 # mesmo que x = x * 2
 print(x)
-x /= 2 #mesmo que x = x / 2
+x /= 2 # mesmo que x = x / 2
 print(x)
-x //= 2 #mesmo que x = x // 2
+x //= 2 # mesmo que x = x // 2
 print(x)
-x %= 2 #mesmo que x = x % 2
+x %= 2 # mesmo que x = x % 2
 print(x)
-x **= 2 #mesmo que x = x ** 2
+x **= 2 # mesmo que x = x ** 2
 print(x)
 
 # importa o objeto math, para que possamos utilizar suas funções (math.____())

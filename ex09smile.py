@@ -1,7 +1,7 @@
 # Exercício 9 - Lista de Emoticon em Dicionário
 
 mensagem = input("> ")
-palavras = mensagem.split(' ')  # quebrar a string em uma lista com as palavras separadas
+palavras = mensagem.split(' ')  # quebra a string em uma lista com as palavras separadas.
 print(palavras)
 emote = {
     ":)": "🙂",

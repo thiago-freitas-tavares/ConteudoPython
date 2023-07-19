@@ -30,7 +30,7 @@ Resumo
 25. módulo: arquivo.py (pode ser importado em qqr módulo). organização do código em funções, classes, módulos, pacotes.
 26. package (pacote): container para múltiplos módulos -> pasta com __init__ vazio e outros módulos.
 27. biblioteca de módulos python que podem ser importadas em qqr módulo. ex: random().
-28. módulo pathlib fornece classes com métodos que podem ser utilizados manipular pastas e arquivos.
+28. módulo pathlib fornece classes com métodos que podem ser utilizados manipular pastas e arquivos. Generator Object.
 29. python package index (pypi) pypi.org: repositório de pacotes desenvolvidos por qualquer programador python.
 30. import openpyxl para manipular planilhas de excel e Barchart e Reference para criar gráficos.
 31. machine learning: fornecemos dados para um modelo procurar padrões que o ajudarão a resolver problemas.
@@ -42,7 +42,6 @@ Resumo
 # função    -> convencao_de_nomeacao_pascal
 # variáveis -> convencao_de_nomeacao_pascal
 
-# Curso Avançado:
 # Acessar informação do yeld.com através do programa desenvolvido.
 # Web Scraping - engine (web crawler) que navega um site e extrai informação de arquivos HDML.
 # Browser Automation - automatiza o teste de compatibilidade das aplicações web com todos os browsers (pyp selenium)

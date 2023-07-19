@@ -1,10 +1,13 @@
 # Função
+
 # É um pacote que armazena algumas linhas de código que realizam uma tarefa específica.
 # print() e input() são exemplos de funções básicas.
 
-def comprimentar():             # def = define -> cria função
+
+def comprimentar():             # def = define -> cria função.
     print('Olá,')
     print('Bem vindo a bordo!')
+
 
 print('Início')
 comprimentar()

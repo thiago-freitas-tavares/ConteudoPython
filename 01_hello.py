@@ -2,6 +2,7 @@
 
 print('Hello, World')
 print("Hello, World")
+
 i = '''
 Hello, World.
 Thank you,Thiago.
@@ -24,6 +25,7 @@ age = 2023 - int(birth_year)
 print("Your age is", age)
 
 # Converter Variável
+
 int()
 float()
 bool()

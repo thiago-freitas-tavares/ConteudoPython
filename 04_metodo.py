@@ -12,7 +12,7 @@ print(curso[0])
 print(curso[-1])
 print(curso[0:3])   # não pega o último valor
 print(curso[3:])
-print(curso[:15])   # não pega o último valor
+print(curso[:15])
 print(curso[:])
 print(len(curso))   # função lenght
 print(curso.upper())

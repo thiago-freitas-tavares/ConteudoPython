@@ -8,6 +8,7 @@
 # função    -> convencao_de_nomeacao_pascal
 # variáveis -> convencao_de_nomeacao_pascal
 
+
 class Ponto:                # A classe Ponto define um novo tipo, que permite a criação de objetos.
     def move(self):         # move(self) é uma função (neste caso também método) dos objetos da classe Ponto.
         print("move")

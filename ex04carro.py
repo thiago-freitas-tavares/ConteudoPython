@@ -1,8 +1,8 @@
 # Exercício 4 - Jogo do Carro
 
 comando = ""
-anterior = "PARE" # Poderia utilizar uma variável booleana também
-# while comando != "FIM": Da para substituir esta comparação por True, neste caso, o while vai rodar até chegar em um break.
+anterior = "PARE"   # Poderia utilizar uma variável booleana também
+# while comando != "FIM": Da para substituir por True, neste caso, o while vai rodar até chegar em um break.
 while True:
     comando = input("> ").upper()
     if comando == "MENU":
@@ -18,8 +18,8 @@ while True:
     elif comando == "PARE" and anterior == "PARE":
         print("O carro já encontra-se parado.")
     elif comando == "FIM":
-        break
         print("Fim.")
+        break
     else:
         print("Não compreendo.")
 

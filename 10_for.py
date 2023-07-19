@@ -4,8 +4,8 @@
 
 numeros = [1, 2, 3, 4, 5]
 
-for item in numeros: # item é uma variável de loop (pode ter qualquer nome) e não precisa ser declarada.
-    print(item) # imprimir na vertical
+for item in numeros:    # item é uma variável de loop (pode ter qualquer nome) e não precisa ser declarada.
+    print(item)         # imprimir na vertical
 
 for item in 'Python':
     print(item)

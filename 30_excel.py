@@ -2,8 +2,8 @@
 
 # Uma aplicação python consegue processar milhares de planilhas em menos de 1s, o que levaria horas ou dias manualmente.
 
-# Faremos um programa python para acessar a planilha transactions
-# Reduzir em 10% os valores da coluna C e incluir um gráfico
+# Faremos um programa python para acessar a planilha transactions.
+# Reduzir em 10% os valores da coluna C e incluir um gráfico.
 
 import openpyxl as xl       # demos o pseudônimo xl para o pacote openpyxl para o código ficar mais clean.
 from openpyxl.chart import BarChart, Reference
@@ -17,7 +17,7 @@ def process_workbook(file_name):             # -> Colocamos tudo dentro de uma f
     cell = sheet.cell(1, 1)     # Duas formas de buscar uma célula específica.
     print(cell.value)
 
-# range() começa em 2, pois a primeira linha é cabeçalho.
+# range() começa em 2, pois a primeira linha é cabeçalho e a contagem de linhas de sheet.cell começa em 1.
 # range() não inclui o segundo argumento, por isso somamos + 1 ao máximo de linhas da planilha.
     for row in range(2, sheet.max_row + 1):
         cell = sheet.cell(row, 3)
@@ -25,11 +25,9 @@ def process_workbook(file_name):             # -> Colocamos tudo dentro de uma f
         corrected_price_cell = sheet.cell(row, 4)
         corrected_price_cell.value = corrected_price
 
-    # Agora faremos um gráfico à partir dos novos dados (D2, D3 e D4)
+    # Agora faremos um gráfico à partir dos novos dados (células D2, D3 e D4)
 
-    # from openpyxl.chart import BarChart, Reference
-
-    values = Reference(sheet,           # A classe Referencia seleciona um range de valores.
+    values = Reference(sheet,           # A classe Reference seleciona um range de valores.
               min_row=2,
               max_row=sheet.max_row,
               min_col=4,

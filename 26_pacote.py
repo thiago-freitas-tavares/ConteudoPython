@@ -1,9 +1,9 @@
 # Pacote (Package) - container para multiplos módulos.
 
-# Botão direito na pasta do projeto HelloWorld + New + Python Package.
+# Botão direito na pasta do projeto ConteudoPython + New + Python Package.
 # Esse comando cria uma pasta com um __init__.py vazio, indicando que este diretório é um pacote.
 
-# Botão direito na pasta do projeto HelloWorld + New + Directory
+# Botão direito na pasta do projeto ConteudoPython + New + Directory
 # Esse comando cria uma pasta vazia, neste caso a pasta é tratada como um diretório comum.
 
 import modulos.utilidades                       # Importando o módulo.
@@ -16,4 +16,3 @@ print(achar_max([10, 30, 25, 7]))
 
 from modulos import utilidades                  # Importando o pacote.
 utilidades.calc_frete()
-

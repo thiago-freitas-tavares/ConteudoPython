@@ -1,8 +1,9 @@
 # Exercício 10 - Funções Reutilizáveis
 # Via de regra, o input e o print(output) ficam de fora das funções, pois podem variar de caso em caso.
 
+
 def conversor_emote(mensagem):
-    palavras = mensagem.split(' ')  # quebrar a string em uma lista com as palavras separadas
+    palavras = mensagem.split(' ')  # quebra a string em uma lista com as palavras separadas.
     print(palavras)
     emote = {
         ":)": "🙂",

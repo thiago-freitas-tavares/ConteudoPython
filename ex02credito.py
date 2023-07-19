@@ -7,5 +7,5 @@ if bom_credito:
 else:
     sinal = 0.2
 print(f"Sinal = R$ {int(preco*sinal)}")
-print("Sinal necessário de " + str(sinal*100) + " % = R$ "+ str(int(preco*sinal)))
-print("Sinal necessário de",sinal*100,"% = R$",int(preco*sinal))
+print("Sinal necessário de " + str(sinal*100) + " % = R$ " + str(int(preco*sinal)))
+print("Sinal necessário de", sinal*100, "% = R$", int(preco*sinal))
