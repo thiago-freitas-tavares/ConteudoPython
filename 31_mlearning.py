@@ -1,5 +1,7 @@
 # Machine Learning
 
+# ---> Execução no Repositório MachineLearning.
+
 '''
 
 Dependendo da aplicação, utilizar técnicas de programação antiga (linhas de programação tratando exceções)
