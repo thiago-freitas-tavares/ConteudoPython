@@ -1,6 +1,6 @@
 # Machine Learning
 
-# ---> Execução no Repositório MachineLearning.
+# ---> Execução no Repositório MachineLearning do GitHub.
 
 '''
 
