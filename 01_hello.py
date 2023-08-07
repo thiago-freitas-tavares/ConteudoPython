@@ -1,12 +1,14 @@
 # Hello World + Regras Básicas
 
-print('Hello, World')
+# Para selecionar a versão do Python Interpreter que deseja utiliza: ctrl + shift + p -> Python: Select Interpreter
+
+print("Hello, World")
 print("Hello, World")
 
-i = '''
+i = """
 Hello, World.
 Thank you,Thiago.
-'''
+"""
 print(i)
 
 age = 35
@@ -15,7 +17,7 @@ first_name = "Thiago"
 is_online = False
 print(first_name, "is", age, "years old")
 print(first_name + " is " + str(age) + " years old")
-print(f'{first_name} is [{age}] years old')     # f de format string
+print(f"{first_name} is [{age}] years old")  # f de format string
 
 name = input("What is your name? ")
 print("Hello", name)
