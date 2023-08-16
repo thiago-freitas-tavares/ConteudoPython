@@ -1,6 +1,6 @@
 # Standard Library Python - biblioteca padrão de módulos python
 
-# Caminho: External Libraries -> Python 3.11 (NomeDoProjeto) -> Lib
+# Caminho: External Libraries -> Python 3.11 (NomeDoProjeto) -> Lib (no PyCharm)
 # Google python 3 module index -> Link Python Documentation (lista de todos os módulos com explicação).
 
 import random

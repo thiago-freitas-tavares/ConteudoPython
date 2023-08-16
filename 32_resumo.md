@@ -1,6 +1,4 @@
-'''
-
-Resumo
+# Resumo
 
 01. funções gerais (print, input) e tipos primitivos de dados (integer, float, string, boolean).
 02. conversão de dados: int(), float(), str(), bool().
@@ -36,12 +34,12 @@ Resumo
 31. machine learning: fornecemos dados para um modelo procurar padrões que o ajudarão a resolver problemas.
     coding em jupyter notebook. bibliotecas: numpy, pandas, matplotlib, scikit-learn.
 
-'''
+# Convenção de Nomeação Pascal
+- classe    -> ConvencaoDeNomeacaoPascal
+- função    -> convencao_de_nomeacao_pascal
+- variáveis -> convencao_de_nomeacao_pascal
 
-# classe    -> ConvencaoDeNomeacaoPascal
-# função    -> convencao_de_nomeacao_pascal
-# variáveis -> convencao_de_nomeacao_pascal
-
-# Acessar informação do yeld.com através do programa desenvolvido.
-# Web Scraping - engine (web crawler) que navega um site e extrai informação de arquivos HDML.
-# Browser Automation - automatiza o teste de compatibilidade das aplicações web com todos os browsers (pyp selenium)
+# Atividades Avançadas
+- Acessar informação do yeld.com através do programa desenvolvido.
+- Web Scraping - engine (web crawler) que navega um site e extrai informação de arquivos HDML.
+- Browser Automation - automatiza o teste de compatibilidade das aplicações web com todos os browsers (pyp selenium)

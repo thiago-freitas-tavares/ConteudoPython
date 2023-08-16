@@ -17,6 +17,6 @@ name = input("Digite seu nome completo: ")
 if len(name) < 3:
     print("Nome deve ter no mínimo 3 caracteres.")
 elif len(name) > 10:
-    print("Nome deve ter no máximo 50 caracteres")
+    print("Nome deve ter no máximo 10 caracteres")
 else:
     print("Cadastro realizado com sucesso.")

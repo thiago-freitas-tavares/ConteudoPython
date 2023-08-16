@@ -17,7 +17,7 @@ first_name = "Thiago"
 is_online = False
 print(first_name, "is", age, "years old")
 print(first_name + " is " + str(age) + " years old")
-print(f"{first_name} is [{age}] years old")  # f de format string
+print(f"{first_name} is {age} years old")  # f de format string
 
 name = input("What is your name? ")
 print("Hello", name)

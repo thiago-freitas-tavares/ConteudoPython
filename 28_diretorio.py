@@ -1,4 +1,4 @@
-# Repositório (Pasta de Arquivos) e Arquivo - Directory and File.
+# Repositório (Directory - Pasta de Arquivos) e Arquivo (File).
 
 # O módulo pathlib fornece classes com métodos que podem ser utilizados manipular repositório e arquivos.
 
@@ -18,6 +18,6 @@ print(caminho1.exists())    # Devolve uma boolean confirmando ou não se o camin
 
 caminho2 = Path()
 # O argumento do método glob define o padrão da busca - '*'(all) ou '*.*'(all files) ou '*.extensão do arquivo').
-print(caminho2.glob('*.py'))            # O método retorna um Generator Object.
+print(caminho2.glob('*.py'))            # O método retorna um Generator Object. <generator object Path.glob at 0x000001C0B53DEAC0>.
 for arquivo in caminho2.glob('*.py'):   # Podemos usar for ou while no gerador de objetos do método glob.
     print(arquivo)

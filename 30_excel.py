@@ -5,13 +5,13 @@
 # Faremos um programa python para acessar a planilha transactions.
 # Reduzir em 10% os valores da coluna C e incluir um gráfico.
 
-import openpyxl as xl       # demos o pseudônimo xl para o pacote openpyxl para o código ficar mais clean.
+import openpyxl as xl                           # demos o pseudônimo xl para o pacote openpyxl para o código ficar mais clean.
 from openpyxl.chart import BarChart, Reference
 
 
-def process_workbook(file_name):             # -> Colocamos tudo dentro de uma função.
-#   wb = xl.load_workbook('transactions.xlsx') -> Dessa forma o programa funciona apenas para este arquivo.
-    wb = xl.load_workbook(file_name)         # -> Dessa forma funciona para vários arquivos (com a função).
+def process_workbook(file_name):                # -> Colocamos tudo dentro de uma função.
+#   wb = xl.load_workbook('transactions.xlsx')    -> Dessa forma o programa funciona apenas para este arquivo.
+    wb = xl.load_workbook(file_name)            # -> Dessa forma funciona para vários arquivos (com a função).
     sheet = wb['Sheet1']
 #   cell = sheet['a1']          # Duas formas de buscar uma célula específica.
     cell = sheet.cell(1, 1)     # Duas formas de buscar uma célula específica.

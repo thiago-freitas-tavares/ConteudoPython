@@ -1,8 +1,4 @@
-# Métodos
-
 # Métodos de Lista
-
-# * ctrl+p te mostra os parâmetros do Método.
 
 numeros = [7, 4, 6, 9, 2]
 print(numeros)
