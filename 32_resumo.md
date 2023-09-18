@@ -39,6 +39,21 @@
 - função    -> convencao_de_nomeacao_pascal
 - variáveis -> convencao_de_nomeacao_pascal
 
+# Google Python Style Guide
+
+- module_name
+- package_name
+- ClassName
+- method_name
+- ExceptionName
+- function_name
+- GLOBAL_CONSTANT_NAME
+- CLASS_CONSTANT_NAME
+- global_var_name
+- instance_var_name
+- function_parameter_name
+- local_var_name
+
 # Atividades Avançadas
 - Acessar informação do yeld.com através do programa desenvolvido.
 - Web Scraping - engine (web crawler) que navega um site e extrai informação de arquivos HDML.
