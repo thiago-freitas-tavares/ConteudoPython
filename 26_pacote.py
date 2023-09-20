@@ -9,10 +9,12 @@
 import modulos.utilidades                       # Importando o módulo.
 modulos.utilidades.calc_frete()
 
+from modulos import utilidades                  # Importando o módulo.
+utilidades.calc_frete()
+
 from modulos.utilidades import calc_frete       # Importando as funções.
 from modulos.utilidades import achar_max        # Forma de import que permite chamar as funções de maneira mais simples.
 calc_frete()
 print(achar_max([10, 30, 25, 7]))
 
-from modulos import utilidades                  # Importando o pacote.
-utilidades.calc_frete()
+

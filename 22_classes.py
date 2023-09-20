@@ -3,12 +3,6 @@
 # Tipos Básicos -> Números, Strings, Booleans.
 # Tipos Complexos -> Lista, Tuple, Dicionário.
 
-# Convenção de Nomeação Pascal
-# classe    -> ConvencaoDeNomeacaoPascal
-# função    -> convencao_de_nomeacao_pascal
-# variáveis -> convencao_de_nomeacao_pascal
-
-
 class Ponto:                # A classe Ponto define um novo tipo, que permite a criação de objetos.
     def move(self):         # move(self) é uma função (neste caso também método) dos objetos da classe Ponto.
         print("move")
@@ -28,3 +22,24 @@ ponto2.x = 80
 ponto2.y = 30
 print(ponto2.x, ponto2.y)
 ponto2.move()
+
+"""
+Convenção de Nomeação Pascal
+classe    -> ConvencaoDeNomeacaoPascal
+função    -> convencao_de_nomeacao_pascal
+variáveis -> convencao_de_nomeacao_pascal
+
+Google Python Style Guide
+- module_name
+- package_name
+- ClassName
+- method_name
+- ExceptionName
+- function_name
+- GLOBAL_CONSTANT_NAME
+- CLASS_CONSTANT_NAME
+- global_var_name
+- instance_var_name
+- function_parameter_name
+- local_var_name
+"""

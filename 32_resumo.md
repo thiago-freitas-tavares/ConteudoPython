@@ -1,38 +1,48 @@
 # Resumo
 
-01. funções gerais (print, input) e tipos primitivos de dados (integer, float, string, boolean).
-02. conversão de dados: int(), float(), str(), bool().
-03. tipo complexo de dado: list = [].
-04. variável com string se torna um objeto e ganha funções (objeto + função = método).
-05. operadores aritméticos (+, -, *, /, //, %, **) e funções aritméticas (import math).
-06. operador de condição: if, elif, else.
-07. operadores de lógica: and, or, not.
-08. operadores de comparação: >, >=, <, <=, ==, !=.
-09. operador de loop: while. Ex: while True -> até encontrar um break.
-10. operador de iteração: for.
-11. função range(): útil em for.
-12. operador de loop aninhado: for dentro de for (construção de matriz).
-13. lista 2D: list dentro de list (matriz).
-14. funções do objeto list (objeto + função = método).
-15. tipo complexo de dado: tuple = ().
-16. unpacking para atribuição simplificada de valores a listas ou tuples.
-17. tipo complexo de dado: dicionário = {} (armazena key-value pairs) e seus métodos.
-    dicionário.get(n1, n2): procura n1 no dicionário, se não encontrar, retorna n2.
-18. definição de funções e seus parâmetros. colocar código em funções para poder reutilizá-las.
-19. positional arguments and keyword arguments: na chamada da função(n1, sobrenome=n2).
-20. return de funções.
-21. tratando erros: try, except.
-22. classe para definir novos tipos de dados. funções das classes são métodos para os objetos do novo tipo de dado.
-23. construtor: método chamado qdo o objeto de uma classe é criado -> __init__(self,).
-24. inheritage (herança): mecanismo de reutilização de código. class n1(n2) -> n1 herda todos métodos de n2.
-25. módulo: arquivo.py (pode ser importado em qqr módulo). organização do código em funções, classes, módulos, pacotes.
-26. package (pacote): container para múltiplos módulos -> pasta com __init__ vazio e outros módulos.
-27. biblioteca de módulos python que podem ser importadas em qqr módulo. ex: random().
-28. módulo pathlib fornece classes com métodos que podem ser utilizados manipular pastas e arquivos. Generator Object.
-29. python package index (pypi) pypi.org: repositório de pacotes desenvolvidos por qualquer programador python.
-30. import openpyxl para manipular planilhas de excel e Barchart e Reference para criar gráficos.
-31. machine learning: fornecemos dados para um modelo procurar padrões que o ajudarão a resolver problemas.
-    coding em jupyter notebook. bibliotecas: numpy, pandas, matplotlib, scikit-learn.
+01. Funções Gerais: print, input.
+    Tipos primitivos de dados: integer, float, complex, string, boolean.
+02. Conversão de Dados: int(), float(), complex(), str(), bool().
+03. Tipo Complexo de Dado: list[item1, item2, item3].
+04. Variável com string se torna um objeto e ganha funções (métodos).
+    Strings em Python são imutáveis.
+05. Operadores Aritméticos: +, -, *, /, //, %, **.
+    Funções Aritméticas: import math.
+06. Operador de Condição: if, elif, else.
+07. Operadores de Lógica: and, or, not.
+08. Operadores de Comparação: >, >=, <, <=, ==, !=.
+09. Operador de Loop/Iteração: while.
+    while True -> até encontrar um break.
+10. Operador de Loop/Iteração: for.
+11. Função range(): não conta o 2° argumento e 3° argumento é o passo.
+12. Operador de Loop Aninhado: for dentro de for.
+13. Lista 2D: list dentro de list (matriz).
+14. Métodos (funções) do objeto list.
+15. Tipo Complexo de Dado: tuple(item1, item2, item3).
+16. Unpacking: atribuição simplificada de valores a listas ou tuples.
+17. Tipo Complexo de Dado: dictionary = {"key1": "value1", "key2": "value2"}
+    dictionary.get(n1, n2): busca n1 no dicionário, se não encontrar, retorna n2.
+18. Funções(parâmetros). Código em funções para poder reutilizá-las.
+19. Positional Arguments e Keyword Arguments. função(n1, sobrenome=n2).
+20. Funções(): return.
+21. Tratando Erros: try, except.
+22. Classe para definir novos tipos de dados.
+    Funções das classes são métodos para os objetos do novo tipo de dado.
+    função(self) aponta para o objeto sendo criado.
+23. Constructor: método chamado qdo o objeto de uma classe é criado.
+    __init__(self, parâmetro1, parâmetro2).
+24. Inheritage (herança): mecanismo de reutilização de código.
+    Class n1(n2) -> n1 herda todos métodos de n2.
+25. Módulo: arquivo.py com código Python (pode ser importado em qqr módulo)
+    Organização do código: funções -> classes -> módulos -> pacotes.
+26. Package (Pacote): container para múltiplos módulos.
+    Possui um __init__.py (indicando que é um pacote) + módulos.
+27. Biblioteca de built-in módulos em python. Ex: random.
+28. Built-in módulo pathlib fornece classes com métodos que podem ser utilizados para manipular pastas e arquivos através de Generator Objects.
+29. Python Package Index (pypi) pypi.org: repositório de pacotes desenvolvidos por qualquer programador Python.
+30. import openpyxl para manipular planilhas de excel e Barchart/Reference para criar gráficos.
+31. Machine Learning: fornecemos dados para um modelo procurar padrões que o ajudarão a resolver problemas. Jupyter Notebook.
+    Bibliotecas: numpy, pandas, matplotlib, scikit-learn.
 
 # Convenção de Nomeação Pascal
 - classe    -> ConvencaoDeNomeacaoPascal
@@ -57,4 +67,4 @@
 # Atividades Avançadas
 - Acessar informação do yeld.com através do programa desenvolvido.
 - Web Scraping - engine (web crawler) que navega um site e extrai informação de arquivos HDML.
-- Browser Automation - automatiza o teste de compatibilidade das aplicações web com todos os browsers (pyp selenium)
+- Browser Automation - automatiza o teste de compatibilidade das aplicações web com todos os browsers (pyp selenium).
